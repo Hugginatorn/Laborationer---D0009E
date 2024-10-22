@@ -29,6 +29,7 @@ class Telefonbok: #
                 if len(user_input) == 2:
                     self.save(user_input[1])
             elif user_input[0] == "quit":
+                print("Tack för att du använde telefonboken!")
                 break
             else:
                 print("Felaktig inmatning. Försök igen.")
